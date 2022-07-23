@@ -29,6 +29,10 @@ export const ImgBox1 = styled.div`
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(${(props: ImageProps) => props.image});
   background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const ImgBox2 = styled.div`
@@ -37,6 +41,10 @@ export const ImgBox2 = styled.div`
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(${(props: ImageProps) => props.image});
   background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const ImgBox3 = styled.div`
@@ -45,6 +53,10 @@ export const ImgBox3 = styled.div`
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(${(props: ImageProps) => props.image});
   background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const ImgBox4 = styled.div`
@@ -53,4 +65,14 @@ export const ImgBox4 = styled.div`
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(${(props: ImageProps) => props.image});
   background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 `;
+
+export const Text = styled.div`
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+`

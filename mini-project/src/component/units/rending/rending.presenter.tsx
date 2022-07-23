@@ -43,22 +43,30 @@ export default function RendingPagePresenter() {
     <S.Wrapper>
       {isActive[0] && (
         <Fade>
-          <S.ImgBox1 image={imageArr[0]}></S.ImgBox1>
+          <S.ImgBox1 image={imageArr[0]}>
+            <S.Text>안녕하세요</S.Text>
+          </S.ImgBox1>
         </Fade>
       )}
       {isActive[1] && (
         <Fade>
-          <S.ImgBox2 image={imageArr[1]}></S.ImgBox2>
+          <S.ImgBox2 image={imageArr[1]}>
+          <S.Text>안녕하세요</S.Text>
+          </S.ImgBox2>
         </Fade>
       )}
       {isActive[2] && (
         <Fade>
-          <S.ImgBox3 image={imageArr[2]}></S.ImgBox3>
+          <S.ImgBox3 image={imageArr[2]}>
+          <S.Text>안녕하세요</S.Text>
+          </S.ImgBox3>
         </Fade>
       )}
       {isActive[3] && (
         <Fade>
-          <S.ImgBox4 image={imageArr[3]}></S.ImgBox4>
+          <S.ImgBox4 image={imageArr[3]}>
+          <S.Text>안녕하세요</S.Text>
+          </S.ImgBox4>
         </Fade>
       )}
     </S.Wrapper>
